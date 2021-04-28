@@ -1,0 +1,101 @@
+html {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-left: 40%;
+  margin-right: 10%;
+  padding-top: 40px;
+  font-size: 23px;
+}
+
+/* This is the menu  */
+nav {
+  background-color: #515151;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  padding-top: 30px;
+}
+nav a {
+  color: white;
+  text-align: center;
+}
+
+/* This is the footer */
+footer {
+  background-color: #212121;
+  text-align: center;
+  color: #ffffff;
+  height: 120px;
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+/* This is the content text
+ */
+
+.content {
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-top: -20%;
+}
+
+/* This is the image */
+
+.cover {
+  margin-left: 70px;
+}
+
+/* These are the buttons */
+button {
+  background-color: #f88e37;
+  height: auto;
+  border-radius: 4px;
+}
+
+.button-content {
+  margin-top: 70px;
+}
+
+.button-footer {
+  margin-top: 45px;
+}
+
+button:hover {
+  background-color: green;
+  font-family: sans-serif;
+}
+
+.button-footer,
+.button-content {
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 14px 40px;
+}
+button a:hover {
+  background-color: green;
+}

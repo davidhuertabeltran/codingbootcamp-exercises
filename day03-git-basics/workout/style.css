@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie {
+    max-width: 500;
+    display: flex;
+    padding: 2em;
+    border: 1px solid gray;
+}
+
+.image {
+    margin-right: 2em;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.score {
+    flex-shrink: 0;
+    display: flex;
+}
+
+.score .stars {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.score .stars img {
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.25em;
+}
+
+.score > div:last-child {
+    margin-left: auto;
+}

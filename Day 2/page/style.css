@@ -1,0 +1,61 @@
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Noto+Sans+JP", Arial, sans-serifre;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1,
+h2 {
+  color: #23226c;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 240%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 180%;
+}
+
+p {
+  color: #555555;
+  line-height: 150%;
+  text-align: justify;
+}
+
+strong {
+  color: black;
+}
+
+em {
+  background-color: #d2d6ef;
+  font-style: normal;
+}
+
+a {
+  color: #6290c3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
+
+.intro,
+.conclusion {
+  background-color: #d2d6ef;
+}

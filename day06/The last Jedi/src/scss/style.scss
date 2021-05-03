@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import 'components/header';
+@import 'components/plot';
+@import 'components/images';
+  
+
+html {
+    background-color: white;
+    min-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ main {
+     display: flex;
+     flex-direction: column;
+}
+

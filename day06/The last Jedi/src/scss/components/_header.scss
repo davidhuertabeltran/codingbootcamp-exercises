@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/welcome.jpg);
+    height: 300px;
+    color: white;
+}
+
+.welcome h1 {
+    font-size: 50px;
+}
+
+.welcome p {
+    font-size: 20px;
+} 

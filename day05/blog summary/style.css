@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+/* These are the articles */
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.article:nth-child(even) img {
+    order: 2;
+}
+
+.article:nth-child(even) .description {
+    order: 1;
+}
+
+.article img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.text {
+    max-width: 300px;
+}
+
+.text:nth-child(1) {
+    padding-left: 50px;
+}

@@ -1,0 +1,71 @@
+html {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+}
+
+/* This is the navigation menu  */
+
+nav a {
+    color:crimson;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 100%; 
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 1s ease-out;
+    background-color: crimson;
+}
+
+nav a:hover:after {
+    transform: scaleX(1);   
+    transform-origin: bottom left; 
+}
+
+
+/* In here it starts the body */
+
+.about blockquote {
+    background-color: #eaeaea;
+}
+
+.users span {
+    font-weight: bold;
+}
+
+.users span:nth-child(2) {
+    font-weight: bold;
+    color: crimson;
+}
+
+.creators .link {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.creators .link.font {
+    font-family: "PT Serif", serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta h2 {
+    color: crimson;
+    font-family: "Lato";
+}
+
+li:nth-child(odd) {
+    text-decoration: underline;
+}
+li:nth-child(even) {
+    text-decoration: none;
+}
+

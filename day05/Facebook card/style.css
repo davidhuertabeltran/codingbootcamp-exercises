@@ -1,0 +1,125 @@
+/* This is the main container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(49, 120, 212, 0.849);
+}
+
+.post {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+/* This is the header, where the status and profile pic is shown */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    padding-left: 10px;
+}
+
+.header .photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header .info a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.time-ago {
+    color: #999494cb;
+    font-size: 14px;
+}
+/* These are the reactions section */
+
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+}
+
+.like-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.love-icon {
+    width: 20px;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.likes span {
+    margin-top: 5px;
+    padding-left: 8px;
+}
+
+/* This is the comment section */
+
+.buttons {
+    display: flex;
+    border-style: solid;
+    border-top-color: #F0F2F5;
+    border-bottom-color: #F0F2F5;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.buttons img {
+    width: 24px;
+    padding-right: 8px;
+}
+
+.like, .comment {
+    padding: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.comments-section {
+    display: flex;
+}
+
+.comments-section .photo img {
+    flex: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Write a comment input field */
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.comments-section .input {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.comments-section input {
+    width: 100%;
+    background-color: #F0F2F5;
+    border: none;
+    height: 32px;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+.comments-section {
+    margin-top: 15px;
+}

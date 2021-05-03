@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .cards {
+      display: flex;
+  }
+  
+  .card {
+      border-radius: 8px;
+      width: 300px;
+      height: 280px;
+      padding: 10px;
+      margin: 30px;
+  }
+  .card_blue {
+      background-color: #42ade2;
+  }
+  
+  .card_red {
+      background-color: #ff3333;
+  }
+  
+  .card_grey {
+      background-color: #9fa6a1;
+  }
+  
+  .card_animated {
+      padding: 0;
+      overflow: hidden;
+      box-shadow: 0 2px 4px 0;
+  }
+
+  .card img {
+      object-fit: cover;
+      width: 300px;
+      height: 224px;
+  }
+
+  .card h2 {
+      margin: 0;
+      padding: 12px 12px 48px;
+  }
+
+  .card .card_content {
+      padding: 8px 12px;
+  }
+
+  .card p {
+      margin: 0;
+  }
+ /*  styles to animate */
+
+/*  we use * to select everything inside te card  */
+ .card * {
+    transition: 0.5s ease all;
+ }
+
+ .card_animated:hover img, .card:focus-within img {
+     margin-top: -80px;
+ }
+
+ .card_animated:hover h2, .card:focus-within h2 {
+     padding: 8px 12px 0;
+ }

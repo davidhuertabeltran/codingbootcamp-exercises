@@ -1,0 +1,30 @@
+Terminal Cmder
+
+Shortcuts:
+
+	• Create new folder: mkdir foldername
+	• Create new file: copy NUL filename.extension
+	• See files in a folder: ls
+	• Go back one folder: cd..
+	• Go to a folder: cd foldername
+	• Go back to root fyle system: cd C:\
+	• Erase folder: rmdir foldername
+	• See in which folder you are: pwd
+	• Delete a file: del filename
+	• See all files: ls -a
+	• Clear terminal (eliminate previous codes): clear
+	• Open Visual Studio (inside the folder you want to open): code .
+
+Git shortcuts:
+	• See the status: git status
+	• Add a file or folder to staging area: git add filename.txt
+	• Add All files in a folder to stging area: git add folder
+	• Add all files: git add -A
+	• Committing: git commit -m "a description of the commit"
+	• Display info about previous commits: git log
+	• Pushing to a remote repository: git push
+	• Pulling from a remote repository: git pull
+	• Initiate git repository: git init
+	• Connect local repository with one in GitHub: it remote add origin https://url-to-your-repository.git
+	• Push any unpushed commits: git push -u origin master
+	• Clone all files from github to computer: git clone https://url-to-your-repository.git

@@ -1,0 +1,66 @@
+html {
+    height: 100vh;
+    font-family: "Original Surfer", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #722f37;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+/* This is the menu */
+
+.menu {
+    text-align: right;
+}
+
+/* This is the tittle */
+
+.tittle {
+    font-size: 50px;
+}
+
+/* This is the title and description  */
+
+.text {
+    color: white;
+    height: 100%;
+    padding-left: 100px;
+}
+
+/* This is the product description */
+
+.description {
+    font-size: 30px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+
+/* This is the product image */
+
+.product {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 150px;
+}
+
+/* This is the button */
+
+.buy button {
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+    font-family: "Original Surfer", Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}

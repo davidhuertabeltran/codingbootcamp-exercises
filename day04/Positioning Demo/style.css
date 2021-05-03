@@ -1,0 +1,44 @@
+body {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    height: 2000px;
+}
+
+.sticky {
+    width: 300px;
+    background-color:lightcoral;
+    position: sticky;
+    top: 20px;
+    left: 700px;
+    z-index: -1;
+}
+
+.static {
+    background-color: lightgray;
+    height: 200px;
+}
+
+.absolute {
+    background-color: lightgreen;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.relative {
+    width: 500px;
+    height: 250px;
+    background-color: #42ade2;
+    position: relative;
+    left: 30px;
+    top: -30px;
+} 
+
+.fixed {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    position: fixed;
+    bottom: 80px;
+    right: 300px;
+}

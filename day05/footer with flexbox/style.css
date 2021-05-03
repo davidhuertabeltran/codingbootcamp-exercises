@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2, p {
+    margin: 0;
+}
+
+body {
+    color: #ffffff;
+    margin: 0;
+}
+
+/* to make nav vertical  */
+body a {
+    display: block;
+    width: 60px;
+}
+
+/* Here starts the footer edition */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #121212;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* This is first column  */
+.company {
+    width: 30%;
+}
+
+.company p {
+    max-width: 300px;
+}
+
+/* This is second column  */
+
+.first-menu {
+    width: 15%;
+}
+
+/* This is third column  */
+
+.second-menu {
+    width: 15%;
+}
+
+/* This is fourth column  */
+
+.third-menu {
+    width: 15%;
+}
+
+/* This is the copyright line */
+
+.copyright {
+    display: flex;
+    color: #b8b8b8;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 0.1px solid white;
+    margin-top: 25px;
+}
+
+.copyright a {
+    color: #b8b8b8;
+}
+
+.copyright .text, .copyright .links {
+    display: flex;
+    padding-top: 15px;
+}

@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'mixins';
+
+body {
+    color: $primary_color;
+    max-width: $desktop_screen_width;
+    margin: 0 auto;
+}
+
+html {
+    font-family: $main_font;
+}
+
+h1 {
+    color: $secondary_color;
+    background-color: lightgreen;
+    @include rounded-box(4em);
+}
+
+
+@import 'components/header';

@@ -1,0 +1,24 @@
+.header {
+    font-family: $main_font;
+    background-color: white;
+    padding: 1em;
+    border-bottom: 1px solid $primary_color;
+
+    @at-root body.with-fixed-header & {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    &__menu {
+
+    }
+    &__menu-link {
+        color: $secondary_color;
+        &:hover { // = header nav a:hover
+            text-decoration: none;
+        }
+    }
+}

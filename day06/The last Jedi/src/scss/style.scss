@@ -7,6 +7,9 @@
 @import 'components/header';
 @import 'components/plot';
 @import 'components/images';
+@import 'components/graphs';
+@import 'components/cast';
+@import 'components/gallery';
   
 
 html {
@@ -21,3 +24,7 @@ html {
      flex-direction: column;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}

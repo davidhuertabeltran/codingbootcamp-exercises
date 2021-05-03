@@ -1,0 +1,45 @@
+.cast {
+    background-color: lightgray;
+}
+
+.cast .container {
+    padding: 40px 0;
+}
+
+.markhamill {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.markcontent {
+    padding-left: 2rem;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0;
+}
+
+.actor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cast .container h2 {
+    text-align: center;
+}
+
+.actor img {
+    width: 70%;
+    height: auto;
+}
+
+.actor p {
+    margin-top: -17px;
+    font-size: smaller;
+    background-color: rgba(78, 74, 74, 0.438);
+    color: white;
+}

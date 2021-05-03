@@ -1,0 +1,31 @@
+.ratings {
+    .container {
+        padding: 40px 0;
+        h2 {
+            text-align: center;
+        }
+        .graphs {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 25px;
+            align-items: flex-end;
+            .web-critics {
+                width: 25%;
+                text-align: center;
+                .bar {
+                    background-color: gray;
+                }
+                .bar1 {
+                    height: 150px;
+                }
+                .bar2 {
+                    height: 200px;
+                }
+                .bar3 {
+                    height: 180px;
+                }
+            }
+            
+        }
+    }
+}

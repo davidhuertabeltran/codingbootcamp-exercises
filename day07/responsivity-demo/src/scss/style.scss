@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #efefef;
+    padding: 1em;
+
+
+    @media (min-width: 800px) and (max-width: 1000px) {
+        display: none;
+    }
+
+    nav {
+        margin-left: auto;
+
+        @media (max-width: 400px) {
+            display: none;
+        }
+    }
+
+    .burger {
+        display: none;
+
+        @media (max-width: 400px) {
+            display: block;
+        }
+    }
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+
+    article {
+        flex: 1;
+        margin: 1em;
+    }
+}
+
+h1 {
+    color: red;
+    @media (min-width: 800px) and (max-width: 1000px) {
+        color: green;
+    }
+}
+
+
+
+// Codes Below can also work, but they are difficult to keep track if the code is too large
+
+// @media (min-width: 800px) and (max-width: 1000px) {
+//     h1 {
+//         color: green;
+//     }
+
+//     header {
+//         display: none;
+//     }
+// }
+
+// @media (max-width: 600px) {
+//     main {
+//         flex-direction: column;
+//     }
+// }
+
+// @media (max-width: 400px) {
+//     header nav {
+//         display: none;
+//     }
+//     header .burger {
+//         display: block;
+//     }
+// } 

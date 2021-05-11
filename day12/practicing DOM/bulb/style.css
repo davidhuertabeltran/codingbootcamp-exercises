@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bulbOff {
+    background: url("bulb-off.png") no-repeat fixed center;
+    height: 600px;
+    width: 600px;
+}
+.bulbOn {
+    background: url("bulb-on.png") no-repeat fixed center;
+    height: 600px;
+    width: 600px;
+}

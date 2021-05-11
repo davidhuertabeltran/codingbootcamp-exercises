@@ -70,24 +70,17 @@
 //     if(a > b) {
 //         if (b > c) {
 //             return a - c;
-//         }   else if (b < c) {
-//                 return a - b;
+//         }   else if (c > a) {
+//                 return b - c;
 //             }
+//         return a - b;
 //     }
 
-//     if(b > a) {
-//         if(a > c) {
-//             return b - c;
-//         }   else if (a < c) {
-//                 return b - a;
-//         }
+//     if (c > b) {
+//         return c - a;
+//     }   else if (c > a) {
+//         return b - a;
 //     }
 
-//     if(c > a) {
-//         if(a > b) {
-//             return c - b;
-//         }   else if (a < b) {
-//                 return c - a;
-//         }
-//     }
+//     return b - c;
 // }

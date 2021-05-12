@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RGB Background Color</title>
+</head>
+<body>
+    <div class="wrapper" id="container">
+        <div class="instructions">
+            <h2>Specify a Background Color</h2>
+        </div>
+        
+        <div class="squareColors">
+            <input type="text" id="red-rgb" placeholder="red" maxlength="3">
+            <input type="text" id="green-rgb" placeholder="green" maxlength="3">
+            <input type="text" id="blue-rgb" placeholder="blue" maxlength="3">
+            <input type="text" id="a-rgb" placeholder="opacity" maxlength="3">
+        </div>
+        <div class="submit">
+            <button class="button-rgb" onclick="changeColor()">Change the Color!</button>
+            <p>Current Background: <span id="actual">rgb(0, 0, 0)</span></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

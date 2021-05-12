@@ -12,11 +12,11 @@
     height: 100vh;
 }
 
-.salary {
-    margin-top: 50px;
+.main h2 {
+    padding-bottom: 50px;
 }
 
-.salary #yourSalary {
+.main #yourSalary {
     text-align: center;
     font-size: 2rem;
     color: blue;

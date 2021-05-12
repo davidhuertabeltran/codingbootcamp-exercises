@@ -11,7 +11,24 @@
     
     <div class="main">
 
-        <div class="one" id="one" onclick="roll()"></div>
+        <div class="balance">
+            <h2>Account Balance</h2>
+            <div id="amount"></div>
+        </div>
+
+
+        <div class="betDashboard">
+            <label for="bet" class="betText">Make a bet</label>
+            <input type="number" name="bet" id="betAmount">
+            <button onclick="makeBet()">Submit bet</button>
+        </div>
+
+
+        <div class="diceImage">
+            <div class="dice-1" id="dice"></div>
+            <button onclick="roll()">Roll the Dice</button>
+        </div>    
+
 
     </div>
 

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.one {
+    background: url("img/side1.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}
+
+.two {
+    background: url("img/side2.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}
+.three {
+    background: url("img/side3.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}
+.four {
+    background: url("img/side4.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}
+.five {
+    background: url("img/side5.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}
+.six {
+    background: url("img/side6.png") no-repeat fixed center;
+    height: 400px;
+    width: 400px;
+}

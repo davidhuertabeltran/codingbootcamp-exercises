@@ -190,4 +190,30 @@ const conversation = [
       text: 'Au revoir',
     },
   ];
-  
+
+const appendMessage = (message) => {
+
+    const container = document.querySelector('.main');
+
+    container.innerHTML += `
+    <div class="message side--${message.side} name--${message.name}">
+        <div class="message__text">
+            ${message.text}
+            </div>
+    </div>`;
+
+}
+
+let next_message = 0;
+
+const interval_id = setInterval(() => {
+    appendMessage(conversation[next_message]);
+
+    next_message++; //this increase the message +1
+
+    if(conversation.length <= next_message) {
+        clearInterval(interval_id);
+    }
+
+}, 1000);
+

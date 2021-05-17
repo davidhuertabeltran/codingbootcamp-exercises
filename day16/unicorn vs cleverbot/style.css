@@ -1,5 +1,53 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    max-width: 400px;
+}
+
+.message {
+    min-height: 3em;
+    background-size: 3em 3em;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
+
+.message.name--Unicorn {
+    background-image: url('img/unicorn.png');
+}
+
+.message.name--Cleverbot {
+    background-image: url('img/cleverbot.png');
+}
+
+.message.side--local {
+    background-position: right top;
+    padding-right: 4em;
+    padding-left: 6em;
+}
+
+.message.side--remote {
+    background-position: left top;
+    padding-left: 4em;
+    padding-right: 6em;
+}
+
+.message__text {
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.message.side--local .message__text {
+    background-color: silver;
+}
+
+.message.side--remote .message__text {
+    background-color: blue;
+    color: white;
 }

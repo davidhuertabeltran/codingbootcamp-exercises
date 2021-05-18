@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item-store {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 20%;
+    width: 80%;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 1.2em;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotateZ(0deg);
+    }
+  
+    100% {
+      transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    background-image: url("spinner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 6rem;
+    height: 6rem;
+    animation: spin 1.5s linear infinite; /* this animation is from line 5 in the CSS code */
+}
+
+.image {
+    width: 25rem;
+    height: auto;
+    display: none;
+}

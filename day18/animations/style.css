@@ -1,0 +1,42 @@
+.box {
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 2s ease;
+}
+
+.box.clicked {
+    animation-name: slidein; /* can be any name, no spaces, and no start with number */
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+
+    /* the following percentages are the % of the animation duration on line 18 */
+
+    0% { 
+        margin-left: 100%;
+    }
+
+    20% {
+        transform: rotateZ(45deg);
+    }
+
+    60% {
+        transform: rotateZ(-45deg);
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+    
+}

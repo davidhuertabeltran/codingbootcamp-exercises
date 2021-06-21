@@ -1,0 +1,17 @@
+{
+    "name": "composer/david",
+    "autoload": {
+        "psr-4": {
+            "Composer\\David\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David",
+            "email": "huerta.beltran.david@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}

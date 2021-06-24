@@ -16,9 +16,9 @@ function RandomCat() {
     useEffect(() => {
         fetchData();
 
-        setInterval(() => {
-            fetchData();
-        }, 2000)
+        // setInterval(() => {
+        //     fetchData();
+        // }, 2000)
 
     }, [])
 

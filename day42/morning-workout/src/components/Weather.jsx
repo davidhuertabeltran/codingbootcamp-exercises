@@ -1,4 +1,4 @@
-export default function Weather( props ) {
+function Weather( props ) {
     return (
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
             {
@@ -18,3 +18,5 @@ export default function Weather( props ) {
         </div>
     )
 }
+
+export default Weather;

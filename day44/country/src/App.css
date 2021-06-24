@@ -1,0 +1,25 @@
+
+header{
+    text-align: center;
+}
+
+.search{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .container{
+
+} */
+
+.filter{
+    position: absolute;
+}

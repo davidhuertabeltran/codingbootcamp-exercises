@@ -14,14 +14,13 @@ function App() {
     const resp = await fetch(randomUrl);
     const data = await resp.json();
     setCountries(data);
-  
   }
 
   return (
     <main>
       <div className="container">
         <SearchBar search={fetchCountries}/>
-        <Filter setFilter={setFilter}/> 
+        <Filter setFilter={setFilter}/>
       </div>
 
       {countries[0] && <Country  data={countries[0]}/>}

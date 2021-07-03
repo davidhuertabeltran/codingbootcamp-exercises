@@ -1,13 +1,13 @@
-// function Countries ({ data: { name, region, population, flag} })
-// import Filter from './Components/Filter';
-
 import {useState , useEffect} from 'react';
 function Countries (props) {
 
     const [data, setData] = useState([]);
 
     async function fetchCountries(value) {
-        const randomUrl = `https://restcountries.eu/rest/v2/region/${value}`;
+        let randomUrl = `https://restcountries.eu/rest/v2/region/${value}`;
+        if(value === "all") {
+            randomUrl = "https://restcountries.eu/rest/v2/all";
+        }
         const resp = await fetch(randomUrl);
         const data = await resp.json();
         setData(data);

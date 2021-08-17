@@ -1,0 +1,81 @@
+/* This is the menu nav */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    padding: 10px;
+}
+
+/* This is the logo */
+
+.logo {
+    margin: 200px auto 10px auto;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* This is the search bar */
+
+.search {
+    height: auto;
+    width: 300px;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+}
+
+.search img {
+    display: inline-block;
+}
+
+.search p {
+    color: #909397;
+    display: inline-block;
+}
+
+/* These are the buttons */
+
+.buttons {
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+/* This is the footer */
+
+footer {
+    background-color: #f8f9fa;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-links {
+    float: right;
+}

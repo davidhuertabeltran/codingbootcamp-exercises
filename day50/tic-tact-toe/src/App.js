@@ -2,8 +2,8 @@ import './App.css';
 import { useState } from 'react';
 import Game from './Game';
 
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Game />
